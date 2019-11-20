@@ -4,5 +4,6 @@
     <string name="app_name">TUGAS01</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_contact_detail">ContactDetail</string>
+    <string name="title_activity_tambah_contact">Tambah Contact</string>
 
 </resources>
