@@ -3,7 +3,11 @@
 
     <string name="app_name">TUGAS01</string>
     <string name="hello_world">Hello world!</string>
-    <string name="title_activity_contact_detail">ContactDetail</string>
+    <string name="title_activity_contact_add">ContactAdd</string>
+    <string name="title_activity_contact_detail">Contact Detail</string>
     <string name="title_activity_tambah_contact">Tambah Contact</string>
+    <string name="title_activity_contact_pesan">Pesan</string>
+    <string name="title_activity_fragment_inbox">Inbox</string>
+    <string name="title_activity_fragment_outbox">Outbox</string>
 
 </resources>

@@ -35,8 +35,6 @@ public class ContactDetail extends Activity {
 		temail = (TextView) findViewById(R.id.tvemailv);
 		tphone = (TextView) findViewById(R.id.tvphonev);
 		tdob = (TextView) findViewById(R.id.tvdobv);
-		
-		new GetContacts().execute();
 	}
 	
 	private class GetContacts extends AsyncTask<Void, Void, Void> {
@@ -118,5 +116,11 @@ public class ContactDetail extends Activity {
     		tdob.setText(dob);
         }
  
+    }
+
+    @Override
+    public void onResume() {
+    	super.onResume();
+    	new GetContacts().execute();
     }
 }
